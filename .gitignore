@@ -1,0 +1,33 @@
+# Virtual environments
+venv/
+venv310/
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Logs and system files
+*.log
+*.DS_Store
+*.swp
+Thumbs.db
+
+# Jupyter/IPython notebooks (optional)
+.ipynb_checkpoints/
+
+# CSV/Dataset output (optional - keep only if generated)
+pose_dataset/*.csv
+combined_dataset.csv
+pose_classifier.pkl
