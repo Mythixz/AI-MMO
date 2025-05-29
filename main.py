@@ -5,7 +5,7 @@ import os
 from datetime import datetime
 
 # ==== SETTINGS ====
-LABEL = "walk"  # <-- เปลี่ยน label ตามท่าที่จะบันทึก
+LABEL = "fallingdown"  # <-- เปลี่ยน label ตามท่าที่จะบันทึก
 SAVE_EVERY_N_FRAME = 5  # บันทึกทุกกี่เฟรม
 OUTPUT_FOLDER = "pose_dataset"
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
