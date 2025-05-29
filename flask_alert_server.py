@@ -8,7 +8,7 @@ q = queue.Queue()
 
 @app.route("/")
 def index():
-    return render_template("index.html")  # ไปโหลดไฟล์จาก templates/index.html
+    return render_template("index.html") 
 
 @app.route("/stream")
 def stream():
@@ -18,7 +18,6 @@ def stream():
             yield f"data: {msg}\n\n"
     return Response(event_stream(), mimetype="text/event-stream")
 
-# รันใน Thread แยก (ไว้ import ไปใช้กับระบบตรวจจับ)
 def run_flask():
     app.run(debug=False, port=5000, use_reloader=False)
 
