@@ -4,6 +4,7 @@ opencv-python==4.9.0.80
 pandas==2.2.2
 scikit-learn==1.4.2
 joblib==1.4.2
-
-# Optional but recommended
 numpy>=1.23.0
+
+# Deep Learning (Full TensorFlow with GPU/CPU)
+tensorflow==2.10.1
